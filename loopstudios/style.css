@@ -1,0 +1,489 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    /* border: 1px solid orangered; */
+    height: 100vh;
+    background-image: url(./images/desktop/image-hero.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    /* border: 6px solid blue; */
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.header-text {
+    border: 2px solid white;
+    height: 7em;
+    width: 15em;
+    margin-top: 10%;
+    margin-left: 7%;
+    font-size: 2em;
+    padding: 30px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+    /* border: 4px solid black; */
+    height: 55.4vh;
+    display: flex;
+    margin-top: 5em;
+}
+
+section img {
+    padding-left: 100px;
+    /* padding-top: 8em; */
+    height: 25em;
+    width: 40em;
+}
+
+.leader-text {
+    /* border: 3px solid orangered; */
+    width: 40vw;
+    height: 16em;
+    margin-top: 145px;
+    margin-left: -135px;
+    background-color: white;
+
+}
+
+.leader-text .first-text {
+    /* border: 2px solid palevioletred; */
+    font-size: 1.5em;
+    text-transform: uppercase;
+    width: 8.5em;
+    margin: auto;
+    margin-top: 40px;
+    font-weight: 1px;
+    margin-bottom: 20px;
+}
+
+.leader-text .second-text {
+    /* border: 2px solid brown; */
+    width: 24em;
+    margin: auto;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    /* margin-left: 7.2em */
+}
+
+.middle-part {
+    /* border: 3px solid blue; */
+    height: 90px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9em;
+    margin-bottom: 2em;
+}
+
+.middle-part p {
+    font-size: 1.9em;
+}
+
+.middle-part button {
+    width: 9em;
+    height: 3em;
+    background: transparent;
+    font-size: 1.05em;
+    border: 0.5px solid black;
+}
+
+.middle-part button:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.majorly-pictures {
+    /* border: 3px solid black; */
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 29px;
+}
+
+.button-after-pictures {
+    display: none;
+}
+
+.picture {
+    height: 600px;
+    /* border: 1px solid orangered; */
+}
+
+
+.deep-earth {
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.night-arcade {
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.soccer-team {
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.the-grid {
+    background-image: url(./images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.from-up {
+    background-image: url(./images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pocket {
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.the-curiosity {
+    background-image: url(./images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fish-eye {
+    background-image: url(./images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deep-earth p,
+ .night-arcade p,
+ .soccer-team p,
+ .the-grid p,
+ .from-up p,
+ .pocket p,
+ .the-curiosity p,
+ .fish-eye p {
+    color: hsl(0, 26%, 87%);
+    font-size: 1.8em;
+    margin-top: 16.5em;
+    margin-left: 1em;
+}
+
+.mobile-footer {
+    display: none;
+}
+
+footer {
+    /* border: 2px solid orchid; */
+    height: 11em;
+    background-color: black;
+    margin-top: 160px;
+}
+
+.logo-and-social {
+    /* border: 2px solid rgb(138, 89, 89); */
+    height: 3.5em;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+}
+
+.logo-and-social .images {
+    display: flex;
+    gap: 15px;
+}
+
+.link-and-copyright {
+    /* border: 2px solid rgb(227, 11, 11); */
+    height: 3.5em;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links li {
+    font-size: 17px;
+}
+
+.link-and-copyright p {
+    font-size: 17px;
+    color: hsl(0, 0%, 51%);
+}
+
+
+@media (width <= 600px) {
+    .hamburger-icon {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    header {
+        /* border: 1px solid orangered; */
+        height: 100vh;
+        background-image: url(./images/mobile/image-hero.jpg);
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-text {
+        border: 2px solid white;
+        height: 9em;
+        width: 80%;
+        margin: auto;
+        margin-top: 7.5em;
+        font-size: 1.3em;
+        color: white;
+        text-align: left;
+        padding: 25px 25px 20px 15px;
+        font-family: sans-serif;
+    }
+
+    section {
+        /* border: 4px solid black; */
+        height: 55.4vh;
+        display: block;
+        margin-top: 5em;
+    }
+    
+    section img {
+        /* padding-left: 100px; */
+        /* padding-top: 8em; */
+        height: 15em;
+        width: 90%;
+        margin: auto;
+        padding-left: 18px;
+    }
+    
+    .leader-text {
+        /* border: 3px solid orangered; */
+        width: 90%;
+        margin: auto;
+        height: 19em;
+        background-color: white;
+    
+    }
+    
+    .leader-text .first-text {
+        /* border: 2px solid palevioletred; */
+        font-size: 2.2em;
+        text-transform: uppercase;
+        text-align: center;
+        width: 8.5em;
+        margin: auto;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .leader-text .second-text {
+        /* border: 2px solid brown; */
+        width: 17em;
+        margin: auto;
+        font-size: 18px;
+        text-align: center;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .middle-part button {
+        display: none;
+    }
+
+    .middle-part p {
+        width: max-content;
+        margin: auto;
+        font-size: 2.2em;
+        margin-top: 40px;
+    }
+
+    .majorly-pictures {
+        /* border: 3px solid black; */
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 29px;
+    }
+
+    .picture {
+        height: 120px;
+    }
+
+    .deep-earth {
+        background-image: url(./images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .night-arcade {
+        background-image: url(./images/mobile/image-night-arcade.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .soccer-team {
+        background-image: url(./images/mobile/image-soccer-team.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .the-grid {
+        background-image: url(./images/mobile/image-grid.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .from-up {
+        background-image: url(./images/mobile/image-from-above.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .pocket {
+        background-image: url(./images/mobile/image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .the-curiosity {
+        background-image: url(./images/mobile/image-curiosity.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .fish-eye {
+        background-image: url(./images/mobile/image-fisheye.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .deep-earth p,
+        .night-arcade p,
+        .soccer-team p,
+        .the-grid p,
+        .from-up p,
+        .pocket p,
+        .the-curiosity p,
+        .fish-eye p {
+        color: hsl(0, 10%, 73%);
+        font-size: 1.3em;
+        margin-top: 2.5em;
+        margin-left: 1em;
+        font-weight: bold;
+    }
+
+    .button-after-pictures {
+        display: flex;
+        margin: auto;
+        margin-top: 5em;
+        padding: 20px 40px;
+        border: 0.5px solid black;
+        background-color: white;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 5em;
+        /* border: 5px solid rgb(13, 63, 212); */
+        height: 35em;
+        background-color: black;
+    }
+
+    .mobile-footer .logo {
+        width: max-content;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3em;
+    }
+    
+    .mobile-images {
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        margin: auto;
+        gap: 20px;
+        margin-bottom: 1px;
+        margin-top: 35px;
+    }
+
+    .mobile-footer p {
+        color: white;
+        width: max-content;
+        margin: auto;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+}
+

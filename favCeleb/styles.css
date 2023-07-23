@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.full-container {
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: 140vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 31.49% 31.49% 31.49%;
+    gap: 23px;
+    overflow: scroll;
+    padding: 30px;
+    background-color: rgb(207, 174, 130);
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+.box {
+    /* border: 1px solid violet; */
+    border-radius: 15px
+}
+
+.box1 {
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box2 {
+    background-image: linear-gradient(to right, rgb(131, 58, 58), black);
+    overflow-y: scroll;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box2 h4 {
+    color: rgb(212, 186, 150);
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.box2 h2 {
+    color: rgb(155, 127, 107);
+}
+
+.d-o-b {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(166, 149, 129);
+}
+
+.box2 h3 {
+    color: rgb(139, 159, 160);
+    font-size: 18px;
+}
+
+.box2 p {
+    color: rgb(215, 158, 137);
+    font-size: 0.9em;
+}
+
+.box3 {
+    background-image: linear-gradient(to right, black, rgb(35, 35, 64));
+}
+
+.box4 {
+    background-image: linear-gradient(to right, rgb(80, 84, 84), hsl(0, 0%, 0%));
+}
+
+.box6 {
+    background-image: linear-gradient(to left, rgb(71, 70, 70), hsl(0, 0%, 0%));
+}
+
+.box3,
+ .box4,
+ .box6,
+ .box7,
+ .box8 {
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.box3 h3,
+ .box4 h3,
+ .box6 h3,
+ .box7 h3,
+ .box8 h3 {
+    /* border: 1px solid black; */
+    color: rgb(139, 159, 160);
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.box3 p,
+ .box4 p,
+ .box6 p,
+ .box7 p,
+ .box8 p {
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(183, 115, 91);
+    font-size: 1em;
+}
+
+.box5 {
+    background-image: url(./Davido_Music_Worldwide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+}
+
+.box7 {
+    background-image: linear-gradient(to left, black, rgb(35, 35, 64));
+}
+
+.box8 {
+    background-image: linear-gradient(to left, rgb(131, 58, 58), black);
+}
+
+.box9 {
+    background-image: url(./davido.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (width <= 600px) {
+    .full-container {
+        width: 90vw;
+        height: 100vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 95%;
+        grid-template-rows: 45% 35% 35% 35% 45% 35% 35% 35% 45%;
+        gap: 23px;
+        overflow: scroll;
+        padding: 30px;
+        background-color: rgb(207, 174, 130);
+    }
+}
