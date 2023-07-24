@@ -300,7 +300,7 @@ footer .icons :hover {
 
 
 
-@media (width <= 600px) {
+@media (width <= 500px) {
     .hamburger-icon {
         display: flex;
     }
