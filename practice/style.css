@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(47, 105, 141);
+}
+
+.main-container {
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 95vh;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.left-side {
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.ham {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.user {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 2px;
+    height: 60px;
+    width: 60px;
+}
+
+.social-icons {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+nav {
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    /* background-color: white; */
+}
+
+nav input {
+    width: 90%;
+    height: 50px;
+    border: 0.5px solid black;
+    margin-bottom: 1px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 15px;
+    border-radius: 30px 0 0 30px;
+}
+
+nav input::placeholder {
+    color: black;
+}
+
+nav button {
+    height: 51.5px;
+    width: 75px;
+    border: 0.5px solid black;
+    background-color: transparent;
+    border-radius: 0 30px 30px 0;
+    margin-top: -1.03px;
+}
+
+nav button:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* background-color: transparent; */
+}
+
+.scroll-page {
+    /* border: 3px solid blueviolet; */
+    height: 506px;
+    overflow-y: scroll;
+}
+
+/* .middle-side {
+    border: 2px solid black;
+} */
+
+.page-content {
+    /* border: 2px solid orchid; */
+    width: 93%;
+    margin: auto;
+    margin-top: 15px;
+    height: 240px;
+    background-image: url(./peach-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.user-persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+    margin-left: 12.5px;
+    margin-top: 10px;
+}
+
+.user-persona img {
+    border-radius: 100%;
+    background-color: rgb(250, 7, 88);
+}
+
+.text-beside-user-persona {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.page-content input {
+    display: block;
+    width: 92%;
+    border: none;
+    margin: auto;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 85px;
+    padding-left: 15px;
+    font-size: 1.05em;
+    background-color: rgb(203, 187, 187);
+}
+
+.page-content input::placeholder {
+    color: white;
+}
+
+.activity-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes-and-retweets {
+    /* border: 1px solid blueviolet; */
+    width: 25%;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    background-color: gray;
+}
+
+.likes-and-retweets:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.likes-and-retweets-container {
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* border: 2px solid orangered; */
+    width: 90%;
+}
+
+.retweet-icons {
+    margin-left: 8px;
+    height: 18px;
+    width: 18px;
+}
+
+.arrow-icon {
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 15.6px;
+    width: 5.5%;
+    height: 27.8px;
+    border-radius: 100%;
+    margin-right: 24px;
+    background-color: white;
+}
+
+.arrow-icon:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.arrow-icon img {
+    padding-top: 5px;
+}
+
+.right-side {
+    border: 1px solid navy;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    gap: 11.5px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.top-right-side {
+    /* border: 1px solid black; */
+    height: 34%;
+    width: 90%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 15px;
+    background-color: ghostwhite;
+}
+
+.who-to-follow {
+    border: 0.5px solid rgb(209, 192, 169);
+    width: 85%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.who-to-follow input {
+    width: 85%;
+    padding-left: 10px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.who-to-follow input::placeholder {
+    color: rgb(104, 102, 102);
+}
+
+.who-to-follow img {
+    /* border: 1px solid blueviolet; */
+    border-radius: 100%;
+    background-color: rgb(233, 230, 230);
+    height: 23px;
+    width: 9.2%;
+}
+
+.who-to-follow img:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+.galatasary,
+ .psg,
+ .twitter-design {
+    /* border: 1px solid darkcyan; */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.galatasary-image-and-persona,
+ .psg-image-and-persona,
+ .twitter-image-and-persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.galatasary-text,
+ .psg-text,
+ .twitter-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.galatasary-text p,
+ .psg-text p,
+ .twitter-text p {
+    font-size: 0.8em;
+}
+
+.galatasary-text .tag,
+ .psg-text .tag,
+ .twitter-text .tag {
+    opacity: 40%;
+}
+
+.galatasary-image-and-persona img,
+ .psg-image-and-persona img,
+ .twitter-image-and-persona img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.galatasary-follow-button img,
+ .psg-follow-button img,
+ .twitter-follow-button img {
+    height: 25px;
+    width: 25px;
+    /* border: 1px solid bisque; */
+    border-radius: 30%;
+    background-color: rgb(8, 131, 179);
+}
+
+.galatasary-follow-button img:hover,
+ .psg-follow-button img:hover,
+ .twitter-follow-button img:hover {
+    background-color: aqua;
+    cursor: pointer;
+ }
+
+.top-right-side button {
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 33px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(207, 207, 207);
+    color: gray;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.top-right-side button:hover {
+    background-color: wheat;
+    cursor: pointer;
+    color: black;
+}
+
+.bluetick {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.bluetick img {
+    height: 12px;
+    width: 12px;
+}
+
+.middle-right-side {
+    /* border: 1px solid seagreen; */
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    background-image: url(./rashford.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.middle-right-side h2 {
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: white;
+}
+
+.middle-right-side p {
+    margin-left: 25px;
+    font-size: 0.9em;
+    color: white;
+    margin-top: 5px;
+}
+
+.tweet-about-him {
+    /* border: 1px solid lawngreen; */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    align-items: center;
+    padding: 3px;
+    margin-top: 63px;
+    border-radius: 30px;
+}
+
+.tweet-about-him input {
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    padding-left: 20px;
+}
+
+.tweet-about-him input::placeholder {
+    color: rgb(133, 129, 129);
+}
+
+.tweet-about-him img {
+    /* border: 1px solid green; */
+    width: 35px;
+    border-radius: 100%;
+    background-color: rgb(252, 1, 1);
+}
+
+.tweet-about-him img:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.bottom-right-side {
+    /* border: 1px solid violet; */
+    height: 25%;
+    width: 90%;
+    margin: auto;
+    background-image: url(./blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.bottom-right-side h3 {
+    margin-left: 25px;
+    margin-top: 8px;
+    font-size: 1.25em;
+    color: white;
+}
+
+.bottom-right-side p {
+    margin-left: 25px;
+    margin-top: 8px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.bottom-right-side button {
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 35px;
+    width: 120px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.bottom-right-side button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
